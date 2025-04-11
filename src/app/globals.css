@@ -146,6 +146,18 @@
 }
 
 .tiptap {
+
+  img{
+    display: block;
+    height: auto;
+    margin: 1.5rem 0;
+    max-width: 100%;
+
+    &.ProseMirror-selectednode {
+      outline: 3px solid var(--primary);
+    }
+  }
+
   table {
     border-collapse: collapse;
     margin: 0;
@@ -167,7 +179,7 @@
       margin-bottom: 0;
     }
     th {
-      background-color: (--gray-3);
+      background-color: #c7c7c7;
       font-weight: bold;
       text-align: left;
     }
